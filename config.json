@@ -1,0 +1,162 @@
+{
+  "id": 2445581104159,
+  "provider_key": "aa6a9aca45a4ee268d0ea23fceb869f5",
+  "services": [
+    {
+      "account_id": 2445581104159,
+      "admin_support_email": null,
+      "backend_authentication_type": "service_token",
+      "backend_authentication_value": "0044ef326bbae970bfd0e2798c7bef72707396ab691063454a576e9e7c0894b1",
+      "backend_version": "oauth",
+      "buyer_can_select_plan": false,
+      "buyer_key_regenerate_enabled": true,
+      "buyer_plan_change_permission": "request_credit_card",
+      "buyers_manage_apps": true,
+      "buyers_manage_keys": true,
+      "created_at": "2014-08-15T21:44:52Z",
+      "credit_card_support_email": null,
+      "custom_keys_enabled": true,
+      "default_application_plan_id": 2357355810596,
+      "default_end_user_plan_id": null,
+      "default_service_plan_id": 2357355810594,
+      "deployment_option": "self_managed",
+      "description": "",
+      "display_provider_keys": false,
+      "draft_name": "",
+      "end_user_registration_required": true,
+      "id": 2555417724002,
+      "infobar": null,
+      "intentions_required": false,
+      "kubernetes_service_link": null,
+      "logo_content_type": null,
+      "logo_file_name": null,
+      "logo_file_size": null,
+      "mandatory_app_key": true,
+      "name": "Prod",
+      "notification_settings": {
+        "email_buyer": [
+          0,
+          50,
+          90,
+          100
+        ],
+        "email_provider": [
+          0,
+          50,
+          90,
+          100
+        ],
+        "web_buyer": [
+          0,
+          50,
+          90,
+          100
+        ],
+        "web_provider": [
+          0,
+          50,
+          90,
+          100
+        ]
+      },
+      "oneline_description": null,
+      "proxiable?": true,
+      "proxy": {
+        "api_backend": "https://echo-api.3scale.net:443",
+        "api_test_path": "/hello",
+        "api_test_success": null,
+        "apicast_configuration_driven": true,
+        "auth_app_id": "app_id",
+        "auth_app_key": "app_key",
+        "auth_user_key": "user_key",
+        "authentication_method": "oidc",
+        "backend": {
+          "endpoint": "https://su1.3scale.net",
+          "host": "su1.3scale.net"
+        },
+        "created_at": "2014-08-15T21:44:52Z",
+        "credentials_location": "headers",
+        "deployed_at": "2017-05-04T20:31:43Z",
+        "endpoint": "http://54.172.115.236:8082",
+        "endpoint_port": 8082,
+        "error_auth_failed": "Authentication failed",
+        "error_auth_missing": "Authentication parameters missing",
+        "error_headers_auth_failed": "text/plain; charset=us-ascii",
+        "error_headers_auth_missing": "text/plain; charset=us-ascii",
+        "error_headers_no_match": "text/plain; charset=us-ascii",
+        "error_no_match": "No Mapping Rule matched",
+        "error_status_auth_failed": 403,
+        "error_status_auth_missing": 403,
+        "error_status_no_match": 404,
+        "hostname_rewrite": "",
+        "hostname_rewrite_for_sandbox": "echo-api.3scale.net",
+        "hosts": [
+          "54.172.115.236"
+        ],
+        "id": 70318,
+        "lock_version": 23,
+        "oauth_login_url": "",
+        "oidc_issuer_endpoint": "http://3scale-admin:ee155680-ef9b-4e50-9bac-2425fdcdcbca@sso-non-secure.apps.demo.vbhalera.osecloud.com/auth/realms/master",
+        "policy_chain": [
+          {
+            "name": "jwt_claim_upstream",
+            "version": "1.0.0",
+            "configuration": {
+              "rules": [
+                {
+                  "jwt_claim": "aud",
+                  "regex": "ef9861a5",
+                  "url": "http://ec2-54-211-220-107.compute-1.amazonaws.com:3000"                  
+                },
+                {
+                  "jwt_claim": "aud",
+                  "regex": "2183dc03",
+                  "url": "https://echo-api.3scale.net:443"                  
+                }
+              ]
+            }
+          },
+          {
+            "name": "apicast.policy.apicast"
+          }
+        ],
+        "proxy_rules": [
+          {
+            "created_at": "2017-04-04T21:52:59Z",
+            "delta": 1,
+            "http_method": "GET",
+            "id": 187968,
+            "metric_id": 2555417841168,
+            "metric_system_name": "hits",
+            "parameters": [],
+            "pattern": "/products",
+            "proxy_id": 70318,
+            "querystring_parameters": {},
+            "redirect_url": null,
+            "tenant_id": 2445581104159,
+            "updated_at": "2018-11-29T23:30:05Z"
+          }
+        ],
+        "sandbox_endpoint": "http://54.172.115.236:8082",
+        "secret_token": "secret_token_vinay_demo",
+        "service_backend_version": "oauth",
+        "service_id": 2555417724002,
+        "tenant_id": 2445581104159,
+        "updated_at": "2018-11-30T18:07:20Z",
+        "valid?": true
+      },
+      "referrer_filters_required": false,
+      "state": "incomplete",
+      "support_email": "vinaybhalerao.20@gmail.com",
+      "system_name": "api",
+      "tech_support_email": null,
+      "tenant_id": 2445581104159,
+      "terms": null,
+      "txt_api": null,
+      "txt_features": null,
+      "txt_support": null,
+      "updated_at": "2018-11-30T18:07:20Z"
+    }
+  ],
+  "timestamp": "2018-11-30T18:58:57Z"
+}
