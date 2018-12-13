@@ -1,5 +1,5 @@
 # Pull from Red Hat
-FROM registry.access.redhat.com/3scale-amp23/apicast-gateway:latest
+FROM registry.access.redhat.com/3scale-amp23/apicast-gateway:1-2
 
 # Copy jwt_claim_upstream source code to the appropriate directory
 COPY ./config.json /opt/app/config.json
