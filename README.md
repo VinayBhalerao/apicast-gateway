@@ -7,6 +7,9 @@ oc get is/apicast
 
 oc new-app --docker-image=172.30.1.1:5000/3scalegateway/apicast:latest
 
+Update build env variable
+THREESCALE_CONFIG_FILE=/opt/app/config.json
+
 oc get pods
 
 oc rsh apicast-<name>
