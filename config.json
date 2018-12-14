@@ -130,7 +130,13 @@
                   "jwt_claim": "aud",
                   "regex": "2183dc03",
                   "url": "https://echo-api.3scale.net:443"                  
+                },
+                {
+                  "jwt_claim": "aud",
+                  "regex": ".*",
+                  "url": "http://ec2-54-211-220-107.compute-1.amazonaws.com:8023"                  
                 }
+
               ]
             }
           },
