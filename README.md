@@ -1,14 +1,11 @@
 ```
 oc new-project 3scalegateway
 
-oc new-build https://github.com/VinayBhalerao/apicast-gateway.git --strategy=docker --name=apicast
+oc new-build https://github.com/VinayBhalerao/apicast-gateway.git --strategy=docker --name=apicast --env THREESCALE_CONFIG_FILE=/opt/app/config.json
 
 oc get is/apicast
 
 oc new-app --docker-image=172.30.1.1:5000/3scalegateway/apicast:latest
-
-Update build env variable
-THREESCALE_CONFIG_FILE=/opt/app/config.json
 
 Update deployment environment variables
 THREESCALE_CONFIG_FILE=/opt/app/config.json
