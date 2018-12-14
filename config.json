@@ -87,8 +87,7 @@
     "hostname_rewrite": "",
     "hostname_rewrite_for_sandbox": "echo-api.3scale.net",
     "hosts": [
-      "apicast-demo.apps.demo.vbhalera.osecloud.com",
-      "apicast-demo.apps.staging.demo.vbhalera.osecloud.com"
+      "apicast-demo.apps.demo.vbhalera.osecloud.com"
     ],
     "id": 70318,
     "lock_version": 25,
