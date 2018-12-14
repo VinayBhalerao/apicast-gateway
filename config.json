@@ -77,7 +77,7 @@
         "created_at": "2014-08-15T21:44:52Z",
         "credentials_location": "headers",
         "deployed_at": "2017-05-04T20:31:43Z",
-        "endpoint": "http://localhost:8082",
+        "endpoint": "http://apicast-demo.apps.demo.vbhalera.osecloud.com:8082",
         "endpoint_port": 8082,
         "error_auth_failed": "Authentication failed",
         "error_auth_missing": "Authentication parameters missing",
@@ -91,7 +91,7 @@
         "hostname_rewrite": "",
         "hostname_rewrite_for_sandbox": "echo-api.3scale.net",
         "hosts": [
-          "localhost"
+          "apicast-demo.apps.demo.vbhalera.osecloud.com"
         ],
         "id": 70318,
         "lock_version": 23,
@@ -137,7 +137,7 @@
             "updated_at": "2018-11-29T23:30:05Z"
           }
         ],
-        "sandbox_endpoint": "http://localhost:8082",
+        "sandbox_endpoint": "http://apicast-demo.apps.demo.vbhalera.osecloud.com:8082",
         "secret_token": "secret_token_vinay_demo",
         "service_backend_version": "oauth",
         "service_id": 2555417724002,
